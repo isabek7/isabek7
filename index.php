@@ -1,34 +1,38 @@
-<!-- Slideshow container -->
-<div class="slideshow-container">
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Homepage web site</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<style type="text/css">
+	html, body {
+		height: 100%;
+		font-family: Roboto;
+	}
+	h2 {
+		color: green;
+	}
+	h3 {
+		color: red;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	</style>
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
+</head>
+<body>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
+	<a href="gallery.html">Gallery</a>
+	<a href="aboutpage.html">About the owner</a>
+	<h1>Hi, this is my homepage </h1>
+	<h2>This is my group</h2>
+	<img src=https://kubanych.herokuapp.com/10-things-to-do-bishkek-kyrgyzstan-main-image-900.jpg
+    copy
+	<h3>Вы можете связаться с нами:</h3>
+	<div>Instagram: <a href="https://instagram.com/kuba_dzh?utm_medium=copy_link" target="_blank">@kuba_dzh</a></div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+</body>
